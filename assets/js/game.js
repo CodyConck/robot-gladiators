@@ -174,7 +174,7 @@ var endGame = function() {
 
   //if player has more money than the high score, player has new high score!
   if (playerInfo.money > highScore) {
-    localStorage.setItem("highscore", playerInfo.monet);
+    localStorage.setItem("highscore", playerInfo.money);
     localStorage.setItem("name", playerInfo.name);
 
     alert(playerInfo.name + " now has the high score of " + playerInfo.money + "!");
